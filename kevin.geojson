@@ -3,13 +3,13 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "20-50"
+        "name": "20-34"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.761580467224121,
-          59.98108503221563
+          10.680256,
+          59.979410
         ]
       }
     },
