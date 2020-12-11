@@ -3,7 +3,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "post1"
+        "name": "20-50"
       },
       "geometry": {
         "type": "Point",
@@ -16,7 +16,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "post2"
+        "name": "20-48"
       },
       "geometry": {
         "type": "Point",
