@@ -42,16 +42,13 @@ var map = new ol.Map({
       source: new ol.source.XYZ({
         attributions: '<a href="http://kartverket.no/">Kartverket</a>',
         url: 'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}'
-		//url: 'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=toporaster4&zoom={z}&x={x}&y={y}'
+	//url: 'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=toporaster4&zoom={z}&x={x}&y={y}'
       })
     }),
     new ol.layer.Vector({
       source: new ol.source.Vector({
         attributions: 'Kevin Utap | <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0 (CC BY 4.0)</a> |',
-        //url: 'https://overpass-api.de/api/interpreter?data=node[historic=charcoal_pile](59.67,10.05,60.34,11.46);out;',
-		url: 'https://kevinutapgithub.github.io/kevin.geojson',
-		//http://rcn.montana.edu/Resources/Converter.aspx
-		//https://geojson.io/#map=17/59.97954/10.76419
+	//url: 'https://kevinutapgithub.github.io/kevin.geojson',
         format: new ol.format.GeoJSON()
       }),
 	  style: pointStyleFunction
