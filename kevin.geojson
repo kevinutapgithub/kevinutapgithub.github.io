@@ -70,7 +70,7 @@
 {"type": "Feature", "properties": {"name":"18/18"},"geometry": {"type": "Point","coordinates": [10.50603068796492,60.14743354837686]}},
 {"type": "Feature", "properties": {"name":"18/19"},"geometry": {"type": "Point","coordinates": [10.409003133787465,60.1520663623222]}},
 {"type": "Feature", "properties": {"name":"18/20"},"geometry": {"type": "Point","coordinates": [10.439097743048851,60.16098377804402]}},
-{"type": "Feature", "properties": {"name":"18/21","post":"Furutoppen"},"geometry": {"type": "Point","coordinates": [10.653324341546968,60.2684544308347]}},
+{"type": "Feature", "properties": {"name":"18/21","post":"Furutoppen 🐵"},"geometry": {"type": "Point","coordinates": [10.653324341546968,60.2684544308347]}},
 {"type": "Feature", "properties": {"name":"18/22"},"geometry": {"type": "Point","coordinates": [10.646305586869698,60.2345403276973]}},
 {"type": "Feature", "properties": {"name":"18/23"},"geometry": {"type": "Point","coordinates": [10.602836138712824,60.228642313718]}},
 {"type": "Feature", "properties": {"name":"18/24"},"geometry": {"type": "Point","coordinates": [10.59604544352419,60.13648265215478]}},
