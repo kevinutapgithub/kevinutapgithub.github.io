@@ -70,3 +70,41 @@ function onClick(e) {
 }
 map.on("click", onClick);
 
+var geolocation = new ol.Geolocation({
+  projection: map.getView().getProjection(),
+  tracking: true,
+  trackingOptions: {
+  enableHighAccuracy: true,
+  maximumAge: 2000  
+  }
+});
+
+var iconStyle = new ol.style.Style({
+  image: new ol.style.Circle({
+    radius: 6,
+    fill: new ol.style.Fill({
+      color: '#3399CC'
+    }),
+    stroke: new ol.style.Stroke({
+      color: '#fff',
+      width: 2
+    })
+  })
+});
+
+var iconFeature = new ol.Feature();   
+var iconSource = new ol.source.Vector({
+  features: [iconFeature]
+});    
+var iconLayer = new ol.layer.Vector({
+  source: iconSource,
+  style : iconStyle
+});    
+map.addLayer(iconLayer); 
+
+geolocation.on('change:position', function() {
+  var pos = geolocation.getPosition();
+  iconFeature.setGeometry(new ol.geom.Point(pos));
+  map.getView().fit(iconFeature.getGeometry());
+  map.getView().setZoom(10); 
+});
