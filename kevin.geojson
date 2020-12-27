@@ -404,6 +404,6 @@
 {"type": "Feature", "properties": {"name":"02/47","post":"Luttjern","year":"2002"},"geometry": {"type": "Point","coordinates": [11.015558110642754,59.826431070095204]}},
 {"type": "Feature", "properties": {"name":"02/48","post":"Vikstjernkoia","year":"2002"},"geometry": {"type": "Point","coordinates": [11.02567660816428,59.75801006719718]}},
 {"type": "Feature", "properties": {"name":"02/49","post":"Sotåsen","year":"2002"},"geometry": {"type": "Point","coordinates": [10.962324434808593,59.770648238966395]}},
-{"type": "Feature", "properties": {"name":"02/50","post":"Tyrigravåsen","year":"2002"},"geometry": {"type": "Point","coordinates": [10.945066182945444,59.68826872380512]}}
+{"type": "Feature", "properties": {"name":"02/50","post":"Tyrigravåsen","year":"2002"},"geometry": {"type": "Point","coordinates": [ 10.945066182945444,59.68826872380512]}}
   ]
 }
