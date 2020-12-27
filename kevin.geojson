@@ -414,21 +414,6 @@
 {"type": "Feature", "properties": {"name":"12/07","post":"Der Solfjellstua lå","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.45997,59.9403]}},
 {"type": "Feature", "properties": {"name":"12/08","post":"Øst for Guribysaga","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.44474,59.98138]}},
 {"type": "Feature", "properties": {"name":"12/09","post":"Gamledammen ved Trinungsvanna","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.55816,59.99502]}},
-{"type": "Feature", "properties": {"name":"12/10","post":"Gryta i Heggelielva","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.52228,60.0186]}},
-{"type": "Feature", "properties": {"name":"12/11","post":"Dritarholbergets hemmelighet","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.456,60.02151]}},
-{"type": "Feature", "properties": {"name":"12/12","post":"Geitstigen 506","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.31815,60.02929]}},
-{"type": "Feature", "properties": {"name":"12/13","post":"Rolighet en celle på Krogskogen","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.29572,60.02992]}},
-{"type": "Feature", "properties": {"name":"12/14","post":"Gamle dammer ved Bønnerudtjernet","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.34025,60.05121]}},
-{"type": "Feature", "properties": {"name":"12/15","post":"Bærumskollen 592","year":"2012"},"geometry": {"type": "Point","coordinates": [10.473067222109083,60.054324983589005]}},
-{"type": "Feature", "properties": {"name":"12/16","post":"Salthulsbroen","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.57875,60.06934]}},
-{"type": "Feature", "properties": {"name":"12/17","post":"Oppkuven 704","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.52054,60.09005]}},
-{"type": "Feature", "properties": {"name":"12/18","post":"Skotkleiva","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.42143,60.11417]}},
-{"type": "Feature", "properties": {"name":"12/19","post":"Fururotvelta ved Spålsveien","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.49397,60.14642]}},
-{"type": "Feature", "properties": {"name":"12/20","post":"Den store stenen","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.46057,60.16748]}},
-{"type": "Feature", "properties": {"name":"12/21","post":"Kollern 688","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.54487,60.21411]}},
-{"type": "Feature", "properties": {"name":"12/22","post":"Almedalshøgda 504","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.63468,60.17876]}},
-{"type": "Feature", "properties": {"name":"12/23","post":"Store Skillingen","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.68779,60.17672]}},
-{"type": "Feature", "properties": {"name":"12/24","post":"Finnerudseter","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.53319,60.15087]}},
-{"type": "Feature", "properties": {"name":"12/25","post":"Høyde 614 øst for søndre Branntjern","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.62669,60.14773]}}
+{"type": "Feature", "properties": {"name":"12/10","post":"Gryta i Heggelielva","year":"2012"},"geometry": {"type": "Point","coordinates": [ 10.52228,60.0186]}}
   ]
 }
