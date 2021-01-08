@@ -56,7 +56,6 @@ var map = new ol.Map({
     })
   ],
   view: view,
-  })
 });
 
 var view = new ol.View({
