@@ -70,7 +70,7 @@ function onClick(e) {
 }
 map.on("click", onClick);
 
-var geolocation = new Geolocation({
+var geolocation = new ol.Geolocation({
   // enableHighAccuracy must be set to true to have the heading value.
   trackingOptions: {
     enableHighAccuracy: true,
@@ -102,20 +102,20 @@ geolocation.on('error', function (error) {
   info.style.display = '';
 });
 
-var accuracyFeature = new Feature();
+var accuracyFeature = new ol.Feature();
 geolocation.on('change:accuracyGeometry', function () {
   accuracyFeature.setGeometry(geolocation.getAccuracyGeometry());
 });
 
-var positionFeature = new Feature();
+var positionFeature = new ol.Feature();
 positionFeature.setStyle(
-  new Style({
-    image: new CircleStyle({
+  new ol.style.Style({
+    image: new ol.style.Circle({
       radius: 6,
-      fill: new Fill({
+      fill: new ol.style.Fill({
         color: '#3399CC',
       }),
-      stroke: new Stroke({
+      stroke: new ol.style.Stroke({
         color: '#fff',
         width: 2,
       }),
@@ -125,12 +125,12 @@ positionFeature.setStyle(
 
 geolocation.on('change:position', function () {
   var coordinates = geolocation.getPosition();
-  positionFeature.setGeometry(coordinates ? new Point(coordinates) : null);
+  positionFeature.setGeometry(coordinates ? new ol.geom.Point(coordinates) : null);
 });
 
-new VectorLayer({
+new ol.layer.VectorLayer({
   map: map,
-  source: new VectorSource({
+  source: new ol.source.VectorSource({
     features: [accuracyFeature, positionFeature],
   }),
 });
