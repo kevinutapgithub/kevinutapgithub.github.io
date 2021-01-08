@@ -130,7 +130,7 @@ geolocation.on('change:position', function () {
   positionFeature.setGeometry(coordinates ? new ol.geom.Point(coordinates) : null);
 });
 
-new ol.layer.VectorLayer({
+new ol.layer.Vector({
   map: map,
   source: new ol.source.Vector({
     features: [accuracyFeature, positionFeature],
