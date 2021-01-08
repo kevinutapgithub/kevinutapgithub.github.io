@@ -55,10 +55,13 @@ var map = new ol.Map({
 	  style: pointStyleFunction
     })
   ],
-  view: new ol.View({
-    center: ol.proj.fromLonLat([10.6,60.05]),
-    zoom: 10
+  view: view,
   })
+});
+
+var view = new ol.View({
+    center: ol.proj.fromLonLat([10.6,60.05]),
+    zoom: 10,
 });
 
 function onClick(e) {
