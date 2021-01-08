@@ -1,13 +1,3 @@
-import 'ol/ol.css';
-import Feature from 'ol/Feature';
-import Geolocation from 'ol/Geolocation';
-import Map from 'ol/Map';
-import Point from 'ol/geom/Point';
-import View from 'ol/View';
-import {Circle as CircleStyle, Fill, Stroke, Style} from 'ol/style';
-import {OSM, Vector as VectorSource} from 'ol/source';
-import {Tile as TileLayer, Vector as VectorLayer} from 'ol/layer';
-
 var style = new ol.style.Style({
       image: new ol.style.Circle({
           radius: 10,
