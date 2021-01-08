@@ -132,7 +132,7 @@ geolocation.on('change:position', function () {
 
 new ol.layer.VectorLayer({
   map: map,
-  source: new ol.source.VectorSource({
+  source: new ol.source.Vector({
     features: [accuracyFeature, positionFeature],
   }),
 });
