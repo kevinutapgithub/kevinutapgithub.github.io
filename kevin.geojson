@@ -688,6 +688,6 @@
 {"type": "Feature", "properties": {"name":"98/24","post":"Bysteinen – Linskjørka","year":"1998"},"geometry": {"type": "Point","coordinates": [10.75728,60.13483]}},
 {"type": "Feature", "properties": {"name":"98/25","post":"Heksekostgrana på Guribrenna","year":"1998"},"geometry": {"type": "Point","coordinates": [10.63317,60.15056]}},
 {"type": "Feature", "properties": {"name":"98/10 Pål","post":"BLEU-steinen ved Manaskaret","year":"1998"},"geometry": {"type": "Point","coordinates": [10.287120975954858,60.036733652620775]}},
-{"type": "Feature", "properties": {"name":"16/01 Pål","post":"Syd på Stikkvannkollen","year":"2016"},"geometry": {"type": "Point","coordinates": [10.54383696223098,59.642444281054665]}}
+{"type": "Feature", "properties": {"name":"16/01 Pål","post":"Syd på Stikkvannkollen","year":"2016"},"geometry": {"type": "Point","coordinates": [10.525027484151908,59.624746655555185]}}
   ]
 }
