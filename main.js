@@ -106,6 +106,6 @@ geolocation.on('change:position', function() {
   var pos = geolocation.getPosition();
   iconFeature.setGeometry(new ol.geom.Point(pos));
   map.getView().fit(iconFeature.getGeometry());
-  //map.getView().setZoom(10); 
-  map.getView().setZoom(map.getView().getZoom() + 1);
+  map.getView().setZoom(10); 
+  //map.getView().setZoom(map.getView().getZoom() + 1);
 });
