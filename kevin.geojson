@@ -1,12 +1,5 @@
 {"type": "FeatureCollection",
   "features": [
-{"type": "Feature", "properties": {"name":"596400,6645900","post":"596400,6645900","year":"alt"},"geometry": {"type": "Point","coordinates": [10.725256894612327,59.93923268377411]}},
-{"type": "Feature", "properties": {"name":"596400,6645950","post":"596400,6645950","year":"alt"},"geometry": {"type": "Point","coordinates": [10.725280210442568,59.93968144742903]}},
-{"type": "Feature", "properties": {"name":"596450,6645950","post":"596400,6645900","year":"alt"},"geometry": {"type": "Point","coordinates": [10.726174591825817,59.93966974529789]}},
-{"type": "Feature", "properties": {"name":"596450,6645900","post":"596400,6645900","year":"alt"},"geometry": {"type": "Point","coordinates": [10.726151263923338,59.9392209818533]}},
-{"type": "Feature", "properties": {"name":"596500,6646000","post":"596400,6645900","year":"alt"},"geometry": {"type": "Point","coordinates": [10.72709231318416,59.94010680030303]}},
-{"type": "Feature", "properties": {"name":"596400,6646000","post":"596400,6645900","year":"alt"},"geometry": {"type": "Point","coordinates": [10.725303527008535,59.94013021104771]}},
-{"type": "Feature", "properties": {"name":"596500,6645900","post":"596400,6645900","year":"alt"},"geometry": {"type": "Point","coordinates": [10.72704563249828,59.939209273871015]}},
 {"type": "Feature", "properties": {"name":"20/01","post":"Leina Kanonpost","year":"2020"},"geometry": {"type": "Point","coordinates": [10.55849459434392,59.67313083373694]}},
 {"type": "Feature", "properties": {"name":"20/02","post":"Aukeåsen 213","year":"2020"},"geometry": {"type": "Point","coordinates": [10.477827088634587,59.746919119538354]}},
 {"type": "Feature", "properties": {"name":"20/03","post":"Bøsetra, ved utsikten","year":"2020"},"geometry": {"type": "Point","coordinates": [10.324341204464828,59.84665210570077]}},
