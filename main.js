@@ -102,7 +102,7 @@ map.on("click", onClick);
           var positionFeature = new ol.Feature();
           positionFeature.setStyle(new ol.style.Style({
             image: new ol.style.Circle({
-              radius: 20,
+              radius: 10,
               fill: new ol.style.Fill({
                 color: '#ff00aa'
               }),
