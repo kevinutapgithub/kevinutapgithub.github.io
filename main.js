@@ -45,7 +45,7 @@ var map = new ol.Map({
     }),
     new ol.layer.Vector({
       source: new ol.source.Vector({
-        attributions: 'Kevin Utap | <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0 (CC BY 4.0)</a> |',
+        attributions: 'xxx | <a href="">xxx</a> |',
         //url: 'https://overpass-api.de/api/interpreter?data=node[historic=charcoal_pile](59.67,10.05,60.34,11.46);out;',
 		url: 'https://kevinutapgithub.github.io/kevin.geojson',
 		//http://rcn.montana.edu/Resources/Converter.aspx
