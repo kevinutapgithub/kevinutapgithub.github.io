@@ -39,7 +39,8 @@ var map = new ol.Map({
     new ol.layer.Tile({
       source: new ol.source.XYZ({
         attributions: '<a href="http://kartverket.no/">Kartverket</a>',
-        url: 'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}'
+	url: 'https://norgeskart.no/#!?project=norgeskart&layers=1002&zoom={z}&lat={x}&lon={y}'
+        //url: 'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}'
 		//url: 'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=toporaster4&zoom={z}&x={x}&y={y}'
       })
     }),
