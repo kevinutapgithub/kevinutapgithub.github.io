@@ -37,12 +37,13 @@ var map = new ol.Map({
   target: 'map',
   layers: [
     new ol.layer.Tile({
-	source: new ol.source.OSM()     
-	//source: new ol.source.XYZ({
-        //attributions: '<a href="http://kartverket.no/">Kartverket</a>',
+	//source: new ol.source.OSM()     
+	source: new ol.source.XYZ({
+        attributions: '<a href="http://kartverket.no/">Kartverket</a>',
         //url: 'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}'
 	//url: 'https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=toporaster4&zoom={z}&x={x}&y={y}'
-	//})
+	url: 'https://cache.kartverket.no/v1/wmts/1.0.0/toporaster/default/webmercator/{z}/{y}/{x}.png'
+	})
     }),
     new ol.layer.Vector({
       source: new ol.source.Vector({
